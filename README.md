@@ -1,6 +1,6 @@
 # URL Shortener
 
-A simple and efficient URL shortener built with [Flask](w) and [SQLite](w), using [SQLAlchemy](w) as the ORM. This API allows users to shorten URLs, retrieve them, track usage statistics, update, or delete them.
+A simple and efficient URL shortener built with [Flask](https://flask.palletsprojects.com/en/stable/) and [SQLite](https://sqlite.org), using [SQLAlchemy](https://sqlalchemy.org) as the ORM. This API allows users to shorten URLs, retrieve them, track usage statistics, update, or delete them.
 
 ## Features
 
@@ -10,13 +10,13 @@ A simple and efficient URL shortener built with [Flask](w) and [SQLite](w), usin
 * Update or delete existing short URLs
 * View statistics for individual short URLs (e.g., creation date, access count)
 
-## Technologies Used
+## Modules Used
 
-* [Python](w)
-* [Flask](w)
-* [SQLAlchemy](w)
-* [SQLite](w)
-* [datetime](w), [secrets](w), [string](w) modules for utility tasks
+* [Python](https://python.org)
+* [Flask](https://flask.palletsprojects.com/en/stable/)
+* [SQLAlchemy](https://sqlalchemy.org)
+* [SQLite](https://sqlite.org)
+* datetime, secrets, string modules for utility tasks
 
 ## Endpoints
 
@@ -149,4 +149,4 @@ Get metadata about the short URL including creation time and access count.
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](w) file for more information.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
