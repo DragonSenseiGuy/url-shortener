@@ -129,7 +129,7 @@ Get metadata about the short URL including creation time and access count.
 3. **Install Dependencies**
 
    ```bash
-   pip3 install requirements.txt
+   pip3 -r install requirements.txt
    ```
 
 4. **Run the App**
